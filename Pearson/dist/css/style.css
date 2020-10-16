@@ -483,7 +483,7 @@ h6,
 		letter-spacing: -0.1px
 	}
 	.h2-mobile {
-		font-size: 36px;
+		
 		line-height: 46px;
 		letter-spacing: -0.1px
 	}
@@ -573,10 +573,8 @@ i {
 }
 
 blockquote {
-	font-style: italic;
-	margin-top: 24px;
-	margin-bottom: 24px;
-	margin-left: 24px
+	text-align: center;
+	font-size: 27px!important;
 }
 
 blockquote::before {
@@ -1291,7 +1289,7 @@ label {
 .hero {
 	position: relative;
 	text-align: center;
-	padding-top: 40px
+	padding-top: 0px
 }
 
 .hero::before {
@@ -1334,7 +1332,7 @@ label {
 @media (min-width: 641px) {
 	.hero {
 		text-align: left;
-		padding-top: 92px;
+		padding-top: 20px;
 		padding-bottom: 80px
 	}
 	.hero::before {
@@ -1529,7 +1527,8 @@ label {
 
 .pricing-table-title {
 	font-family: "Mukta", sans-serif;
-	color: #1F2B35
+	color: #1F2B35;
+	text-align:center;
 }
 
 .pricing-table-price-currency {
